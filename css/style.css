@@ -1,0 +1,90 @@
+img, embed,object,video {
+  max-width: 100%;
+}
+
+nav a, button {
+  min-width: 48px;
+  min-height: 48px;
+}
+
+body
+.text-muted {
+  color:#7d97ad;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.title-super{
+  font-size: 60px;
+}
+
+.title-logo{
+  margin-top:20px;
+}
+
+.resize_logo{
+    width:20%;
+    height: auto;
+}
+
+.resize_photo{
+    width:100%;
+}
+.dis-vera{
+  font-size: 24px;
+  text-align: center;
+  padding-top: 7%;
+  color:#7d97ad;
+  font-style: italic;
+
+}
+.resize_header{
+    width:100%;
+    height: auto;
+}
+
+.line-tkick{
+  text-decoration: none;
+  border-bottom: 5px solid #7d97ad;
+ }
+ .footer{
+   text-align: center;
+   color: #7d97ad;
+ }
+
+.btn-lg {
+  padding-left: 20%;
+  font-size: 7em;
+  display: inline-flex;
+}
+.btn-facebook{
+  color:#3B5998
+}
+.btn-instagram {
+  color:#3F729B
+}
+.btn-github {
+  color:#444444
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 770px) {
+
+  .dis-vera{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 5%;
+  }
+
+  .btn-lg{
+    padding-left: 20%;
+    font-size: 3em;
+    display: inline-flex;
+  }
+
+  .img-responsive{
+    display: inline;
+    padding-left: 5%;
+  }
+
+}
