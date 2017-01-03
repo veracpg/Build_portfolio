@@ -1,53 +1,67 @@
-img, embed,object,video {
-  max-width: 100%;
-}
 
 nav a, button {
   min-width: 48px;
   min-height: 48px;
 }
 
-body
 .text-muted {
-  color:#7d97ad;
+  color: #7d97ad;
   font-weight: bold;
   margin-left: 30px;
 }
 
-.title-super{
+.text-uppercase {
+  text-align: center;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.row {
+  margin-top: 25px;
+}
+
+.row: first-of-type {
+  margin-top: 0;
+}
+
+.title-super {
   font-size: 60px;
 }
 
-.title-logo{
-  margin-top:20px;
+.title-logo {
+  margin-top: 20px;
 }
 
-.resize_logo{
-    width:20%;
+.resize_logo {
+    width: 20%;
     height: auto;
 }
 
-.resize_photo{
-    width:100%;
+.resize_photo {
+    width: 100%;
 }
-.dis-vera{
+
+.dis-vera {
   font-size: 24px;
   text-align: center;
   padding-top: 7%;
-  color:#7d97ad;
+  color: #7d97ad;
   font-style: italic;
-
 }
-.resize_header{
-    width:100%;
+
+.resize_header {
+    width: 100%;
     height: auto;
 }
 
-.line-tkick{
+.line-tkick {
   text-decoration: none;
   border-bottom: 5px solid #7d97ad;
  }
- .footer{
+
+ .footer {
    text-align: center;
    color: #7d97ad;
  }
@@ -57,34 +71,36 @@ body
   font-size: 7em;
   display: inline-flex;
 }
-.btn-facebook{
-  color:#3B5998
+
+.btn-facebook {
+  color: #3B5998
 }
+
 .btn-instagram {
-  color:#3F729B
+  color: #3F729B
 }
+
 .btn-github {
-  color:#444444
+  color: #444444
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 770px) {
 
-  .dis-vera{
+  .dis-vera {
     font-size: 18px;
     text-align: center;
     padding-top: 5%;
-    padding-left: 5%;
+    padding-left: 15%;
   }
 
-  .btn-lg{
-    padding-left: 20%;
+  .btn-lg {
+    padding-left: 7%;
     font-size: 3em;
     display: inline-flex;
   }
 
-  .img-responsive{
+  .img-responsive {
     display: inline;
     padding-left: 5%;
   }
-
 }
