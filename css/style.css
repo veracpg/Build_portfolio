@@ -87,14 +87,13 @@ nav a, button {
 @media only screen and (min-device-width : 320px) and (max-device-width : 770px) {
 
   .dis-vera {
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     padding-top: 5%;
-    padding-left: 15%;
   }
 
   .btn-lg {
-    padding-left: 7%;
+    padding-left: 20%;
     font-size: 3em;
     display: inline-flex;
   }
