@@ -1,21 +1,54 @@
+header {
+  color: chartreuse;
+}
+
+h4 {
+  text-align: left;
+  position: absolute;
+  margin-left: 1%;
+  margin-top: 10%;
+  font-family: 'Roboto Mono', monospace;
+}
 
 nav a, button {
   min-width: 48px;
   min-height: 48px;
 }
 
+.dis-title2{
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Roboto Mono', monospace;
+  color: grey;
+  padding-bottom: 7%;
+}
+
+.links{
+  color: black;
+  text-align: center;
+  margin-top: 2%;
+  font-family: 'Roboto Mono', monospace;
+
+}
+
 .text-muted {
-  color: #7d97ad;
+  color:grey;
   font-weight: bold;
   margin-left: 30px;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .text-uppercase {
-  text-align: center;
+  text-align: left;
+  font-weight: bold;
+  font-family: 'Roboto Mono', monospace;
+  color: chartreuse;
 }
 
 .text-align {
-  text-align: center;
+  text-align: left;
+  font-family: 'Roboto Mono', monospace;
+  color: grey;
 }
 
 .row {
@@ -28,6 +61,12 @@ nav a, button {
 
 .title-super {
   font-size: 60px;
+  position: absolute;
+  margin-left: 1%;
+  text-align: left;
+  margin-top: 3%;
+  font-family: 'Roboto Mono', monospace;
+
 }
 
 .title-logo {
@@ -45,10 +84,41 @@ nav a, button {
 
 .dis-vera {
   font-size: 24px;
-  text-align: center;
   padding-top: 7%;
-  color: #7d97ad;
-  font-style: italic;
+  padding-bottom: 7%;
+  padding-left: 7%;
+  padding-right: 7%;
+  color:chartreuse;
+  background-color: grey;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.dis-contacts {
+  font-size: 24px;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  padding-left: 7%;
+  padding-right: 7%;
+  color:chartreuse;
+  background-color: grey;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.dis-title {
+  font-size: 24px;
+  color:chartreuse;
+  background-color: grey;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.dis-desc {
+  font-size: 24px;
+  color:chartreuse;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  padding-left: 7%;
+  padding-right: 7%;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .resize_header {
@@ -58,33 +128,41 @@ nav a, button {
 
 .line-tkick {
   text-decoration: none;
-  border-bottom: 5px solid #7d97ad;
+  border-bottom: 10px solid;
+  color: chartreuse;
  }
 
  .footer {
    text-align: center;
-   color: #7d97ad;
+   color: chartreuse;
+   font-family: 'Roboto Mono', monospace;
  }
 
 .btn-lg {
-  padding-left: 20%;
-  font-size: 7em;
   display: inline-flex;
 }
 
 .btn-facebook {
-  color: #3B5998
+  color: grey;
 }
 
 .btn-instagram {
-  color: #3F729B
+  color: grey;
 }
 
 .btn-github {
-  color: #444444
+  color: grey;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 770px) {
+@media only screen and (min-device-width : 360px) and (max-device-width : 640px) {
+
+  h4 {
+    font-size: 10px ;
+    text-align: left;
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 10%;
+  }
 
   .dis-vera {
     font-size: 20px;
@@ -101,5 +179,39 @@ nav a, button {
   .img-responsive {
     display: inline;
     padding-left: 5%;
+  }
+
+  .title-super {
+    font-size: 20px;
+    position: absolute;
+    margin-left: 1%;
+    text-align: left;
+    margin-top: 3%;
+  }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+
+  h4 {
+    font-size: 8px ;
+    text-align: left;
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 10%;
+  }
+
+  .title-super {
+    font-size: 15px;
+    position: absolute;
+    margin-left: 1%;
+    text-align: left;
+    margin-top: 3%;
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+  h4 {
+    margin-top: 15%;
   }
 }
