@@ -83,7 +83,7 @@ nav a, button {
 }
 
 .dis-vera {
-  font-size: 24px;
+  font-size: 18px;
   padding-top: 7%;
   padding-bottom: 7%;
   padding-left: 7%;
@@ -94,7 +94,7 @@ nav a, button {
 }
 
 .dis-contacts {
-  font-size: 24px;
+  font-size: 18px;
   padding-top: 7%;
   padding-bottom: 7%;
   padding-left: 7%;
@@ -112,8 +112,8 @@ nav a, button {
 }
 
 .dis-desc {
-  font-size: 24px;
-  color:chartreuse;
+  font-size: 18px;
+  color:grey;
   padding-top: 7%;
   padding-bottom: 7%;
   padding-left: 7%;
@@ -140,19 +140,9 @@ nav a, button {
 
 .btn-lg {
   display: inline-flex;
-}
-
-.btn-facebook {
   color: grey;
 }
 
-.btn-instagram {
-  color: grey;
-}
-
-.btn-github {
-  color: grey;
-}
 
 @media only screen and (min-device-width : 360px) and (max-device-width : 640px) {
 
@@ -168,12 +158,6 @@ nav a, button {
     font-size: 20px;
     text-align: center;
     padding-top: 5%;
-  }
-
-  .btn-lg {
-    padding-left: 20%;
-    font-size: 3em;
-    display: inline-flex;
   }
 
   .img-responsive {
